@@ -15,7 +15,7 @@ int main(void){
     double x1 = (-(b) + sqrt(delta))/(2*a);
     double x2 = (-(b) - sqrt(delta))/(2*a);
 
-    // b² - 4ac
+    // bÂ² - 4ac
     printf("\ncalculando Delta...\n");
     sleep(1);
     printf("b^2 -4ac\n");
@@ -32,11 +32,11 @@ int main(void){
         printf("(-b +- raiz(Delta))/2a\n");
         printf("(-(%d) +- raiz(%.2f))/2*%d\n\n", b, delta, a);
         printf("(%d + %.2f)/%d\n", -(b), sqrt(delta), 2*a);
-        printf("    (%.2f)/%d\n", -(b) + sqrt(delta), 2*a);
-        printf("    %.2f\n\n", (-(b) + sqrt(delta))/(2*a));
+        printf("\t(%.2f)/%d\n", -(b) + sqrt(delta), 2*a);
+        printf("\t%.2f\n\n", (-(b) + sqrt(delta))/(2*a));
         printf("(%d - %.2f)/%d\n", -(b), sqrt(delta), 2*a);
-        printf("    (%.2f)/%d\n", -(b) - sqrt(delta), 2*a);
-        printf("    %.2f\n\n", (-(b) - sqrt(delta))/(2*a));
+        printf("\t(%.2f)/%d\n", -(b) - sqrt(delta), 2*a);
+        printf("\t%.2f\n\n", (-(b) - sqrt(delta))/(2*a));
         printf("x1: %.2f\nx2: %.2f", x1, x2);
     }
     else{
